@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+
+        <nav>
+            <ul>
+                <a href="index.html" class="nav-button">Home</a>
+                <a href="aboutme.html" class="nav-button">About Me</a>
+                <a href="projectspage.html" class="nav-button">Projects</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contact-form">
+
+            <h2>Please Take a minute to fill out this form.</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name:</label><br>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    minlength="2"
+                    maxlength="100">
+                <br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    pattern="[0-9]{10}"
+                    placeholder="1234567890"
+                    required>
+                <br><br>
+
+                <label for="comments">Comments:</label><br>
+                <textarea
+                    id="comments"
+                    name="comments"
+                    rows="6"
+                    cols="40"
+                    required></textarea>
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Email: dean.pilieci@ontariotechu.net</p>
+        <p>LinkedIn: linkedin.com/in/deanpilieci@gmail.com</p>
+        <p>&copy; 2026 Dean Pilieci. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
